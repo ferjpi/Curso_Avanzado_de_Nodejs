@@ -1,0 +1,29 @@
+{
+  "name": "platzitverse-db",
+  "version": "1.0.0",
+  "description": "A Simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferjpi/platziverse.git"
+  },
+  "author": "fernando pineda <fernandojpt1203@gmail.com> (www.ferjpi.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferjpi/platziverse/issues"
+  },
+  "homepage": "https://github.com/ferjpi/platziverse#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "pg": "^7.5.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.39.0"
+  }
+}
